@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+
+h1,
+h2{
+    color:rgb(218,22,47);
+    font-family:fantasy
+    background-color: green;
+}
+
+@media screen and (max-width 50rem) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
+    form-input, textarea {
+        margin: 2px 0; 
+    }
+}
+
+<p id="arrowgreen"> #arrowgreen {
+    color: rgb(00,40,00)
+        
+    border: 5px solid #903d3d;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px; 
+    padding-left: 15px;
+    
+    border-radius: 15px;
+    
+}
+
+.flashred {
+    color: rgb(60,00,00)
+}
+
+a {
+    color: green;
+    font-family: fantasy
+}
+
+
+
+body{
+    background-color: #052505
+}
+class="boringfont"
+
+margin-left auto
+margin-right auto 
+(centers element on page)
